@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Website Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: rgb(113, 11, 11);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: burlywood;
+        }
+        h2 {
+            color: burlywood;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        #aip{
+            background-color: burlywood;
+            color: rgb(0, 0, 0);
+        }
+        #acil{
+            background-color: burlywood;
+            color: rgb(4, 2, 0);
+        }
+        #pipin{
+            background-color: burlywood;
+            color: black;
+        }
+        #pepel{
+            background-color: burlywood;
+            color: rgb(113, 11, 11);
+        }
+        form {
+            margin-bottom: 80px;
+            
+        }
+        form div {
+            margin-bottom: 15px;
+            
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid rgb(12, 0, 0);
+        }
+        th, td {
+            text-align: center;
+            padding: 8px;
+            color: rgb(10, 0, 0);
+            background-color: beige;
+        }
+        th{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat Datang di Pendaftaran Calon Boyfie.. </h1>
+        <img src="calonboyfie.jpg" alt="Deskripsi Gambar" width="600">
+    </header>
+
+    <section>
+        <h2>Formulir Pendaftaran </h2>
+        <form>
+            <div>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input id="aip" type="text" name="nama" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input id="acil" type="email" name="email" placeholder="Masukkan email Anda" required>
+            </div>
+            <div>
+                <label for="password">Kata Sandi:</label><br>
+                <input id="pipin" type="password" name="password" placeholder="Masukkan kata sandi" required>
+            </div>
+            <div>
+                <button id="pepel" type="submit">Daftar</button>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <h2>Data Peserta</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sylus</td>
+                    <td>littlecrow@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Xavier</td>
+                    <td>lumiere@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rafayel</td>
+                    <td>fishman@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Zayne</td>
+                    <td>icepeople@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
